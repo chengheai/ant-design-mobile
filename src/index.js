@@ -1,19 +1,17 @@
-import 'babel-polyfill';
 import dva from 'dva';
-
-import './index.less';
+import './index.css';
 
 // 1. Initialize
-const app = dva({});
+const app = dva();
 
 // 2. Plugins
-// app.use();
+// app.use({});
 
 // 3. Model
-// Moved to router.js
+// app.model(require('./models/example').default);
 
 // 4. Router
-app.router(require('./router.jsx'));
+app.router(require('./router.jsx').default);
 
 // 5. Start
 app.start('#root');
