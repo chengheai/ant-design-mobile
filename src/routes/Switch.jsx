@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import { List, Switch } from 'antd-mobile';
 import { createForm } from 'rc-form';
 class SwitchC extends Component{
-  constructor(props) {
-    super(props)
-  }
   
   render(){
     const { getFieldProps } = this.props.form;

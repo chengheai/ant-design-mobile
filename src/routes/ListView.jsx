@@ -141,7 +141,7 @@ class ListViewC extends Component{
               borderBottom: '1px solid #F6F6F6',
             }}
           >{obj.title}</div>
-          <div style={{ display: '-webkit-box', display: 'flex', padding: '15px 0' }}>
+          <div style={{ display: 'flex', padding: '15px 0' }}>
             <img style={{ height: '64px', marginRight: '15px' }} src={obj.img} alt="" />
             <div style={{ lineHeight: 1 }}>
               <div style={{ marginBottom: '8px', fontWeight: 'bold' }}>{obj.des}</div>

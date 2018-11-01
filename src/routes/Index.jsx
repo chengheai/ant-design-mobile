@@ -27,8 +27,6 @@ class Index extends Component{
     // fix in codepen
     const sidebar = (<List>
       {CTYPE.routes.map((i, index) => {
-        {/* console.log('index:', index)
-        console.log('i:', i) */}
 
         return (<List.Item key={index}
         ><Link to={i.path} style={{color:'rgba(0, 0, 0, 0.65)'}}><Icon size='xxs' type={i.icon} style={{marginRight:10}} />{i.name}</Link></List.Item>);
