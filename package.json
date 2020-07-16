@@ -16,7 +16,7 @@
     "babel-runtime": "^6.26.0",
     "dva": "^2.1.0",
     "flex.css": "^1.1.7",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.19",
     "moment": "^2.21.0",
     "path-to-regexp": "^2.1.0",
     "prop-types": "^15.6.1",
